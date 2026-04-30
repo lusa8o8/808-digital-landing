@@ -3,8 +3,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-import sammDesktopImg from "@assets/image_1777508488994.png";
-import d8DesktopImg from "@assets/image_1777509129964.png";
+import sammDesktopImg from "@assets/samm-preview.jpg";
+import d8DesktopImg from "@assets/d8-preview.jpg";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
