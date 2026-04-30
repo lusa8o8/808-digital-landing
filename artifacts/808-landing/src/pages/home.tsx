@@ -53,7 +53,7 @@ export default function Home() {
           variants={staggerContainer}
         >
           <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tighter mb-6 text-foreground">
-            Quiet studio.<br/>Clear purpose.
+            Calm design.<br/>Real utility.
           </motion.h1>
           <motion.p variants={fadeInUp} className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto font-medium mb-10">
             An independent software studio in Zambia building thoughtful, focused digital products for modern life and work.
