@@ -197,15 +197,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Company Info & Contact */}
+      {/* Contact */}
       <section id="contact" className="py-32 px-6 md:px-12 max-w-[1400px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start gap-16">
           <motion.div 
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="max-w-xl"
+            className="max-w-2xl"
           >
             <h2 className="text-4xl font-semibold tracking-tight mb-6">Let's talk</h2>
             <p className="text-xl text-muted-foreground mb-8">
@@ -234,38 +233,13 @@ export default function Home() {
               </a>
             </Button>
           </motion.div>
-
-          <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className="bg-card border rounded-3xl p-8 md:p-12 w-full md:w-auto min-w-[320px]"
-          >
-            <div className="text-sm font-medium text-muted-foreground mb-8 uppercase tracking-widest">COMPANY DETAILS</div>
-            <dl className="space-y-6">
-              <div>
-                <dt className="text-sm text-muted-foreground mb-1">Legal Name</dt>
-                <dd className="font-medium">EIGHT ZERO EIGHT DIGITAL SYSTEMS</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-muted-foreground mb-1">Registration No.</dt>
-                <dd className="font-mono text-sm">320261068691</dd>
-              </div>
-              <div>
-                <dt className="text-sm text-muted-foreground mb-1">Location</dt>
-                <dd className="font-medium">Zambia</dd>
-              </div>
-            </dl>
-          </motion.div>
-        </div>
       </section>
 
       {/* Footer */}
       <footer className="border-t py-12 px-6 md:px-12">
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-sm text-muted-foreground">
-            Samm and D8 are products of Eight Zero Eight Digital Systems
+            &copy; 2026 808 Digital
           </div>
           <div className="flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <a href="/privacy" className="hover:text-foreground transition-colors">Privacy</a>

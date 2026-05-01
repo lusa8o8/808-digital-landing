@@ -34,7 +34,7 @@ export default function LegalLayout({ children }: LegalLayoutProps) {
       <footer className="border-t py-12 px-6 md:px-12">
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-sm text-muted-foreground">
-            Samm and D8 are products of Eight Zero Eight Digital Systems
+            &copy; 2026 808 Digital
           </div>
           <div className="flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
